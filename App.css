@@ -1,0 +1,93 @@
+
+body {
+  font-family: Georgia, serif;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #faf9f9;
+  text-align: center;
+  color: black;
+}
+nav {
+  background-color: rgb(209, 110, 28);
+  padding: 10px 0;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 20px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 500px;
+}
+li a {
+  color: white;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px black;
+}
+main {
+  margin: 0 auto;
+}
+.booksList {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.bookCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  padding: 20px;
+  margin: 30px;
+  flex-basis: 20%;
+  border: 1px solid rgb(255, 106, 0);
+  border-radius: 8px;
+  box-shadow: 0 0 5px black;
+  transition: box-shadow 300ms;
+  list-style: none;
+}
+img {
+  block-size: 250px;
+}
+.singleBook {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  padding: 1em;
+  margin: 30px;
+  border: 1px solid #f6ff00;
+  border-radius: 5px;
+  box-shadow: 0 0 5px black;
+  transition: box-shadow 300ms;
+  list-style: none;
+}
+.regForm {
+  width: 50%;
+  padding-left: 25%;
+  color: black;
+}
+.logForm {
+  width: 50%;
+  padding-left: 25%;
+  color: black;
+}
+input {
+  width: 100%;
+  font-size: 1.2em;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+button {
+  border-radius: 5px;
+  width: 120px;
+  background-color: rgb(0, 106, 255);
+  font-size: 15px solid;
+  color: white;
+}
+.searchInput :only-child {
+  width: 50%;
+  font-size: 1.1em;
+}
